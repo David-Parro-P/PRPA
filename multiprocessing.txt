@@ -1,0 +1,60 @@
+Script started on 2023-02-02 13:16:00+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="101" LINES="55"]
+[?2004h]0;alumno@aula424: ~/PRPA[01;32malumno@aula424[00m:[01;34m~/PRPA[00m$ emacs prpa_01.py
+[?2004l[?2004h]0;alumno@aula424: ~/PRPA[01;32malumno@aula424[00m:[01;34m~/PRPA[00m$ emacs prpa_01.py[C[1P.py2.py
+[?2004l[?2004h]0;alumno@aula424: ~/PRPA[01;32malumno@aula424[00m:[01;34m~/PRPA[00m$ emacs prpa_02.py[1P.py3.py
+[?2004l[?2004h]0;alumno@aula424: ~/PRPA[01;32malumno@aula424[00m:[01;34m~/PRPA[00m$ emacs prpa_03.py[1P.py4.py
+[?2004l[?2004h]0;alumno@aula424: ~/PRPA[01;32malumno@aula424[00m:[01;34m~/PRPA[00m$ git status
+[?2004lEn la rama main
+Tu rama está adelantada a 'origin/main' por 1 commit.
+  (usa "git push" para publicar tus commits locales)
+
+Cambios a ser confirmados:
+  (usa "git restore --staged <archivo>..." para sacar del área de stage)
+	[32mborrados:        prpa_01.py[m
+	[32mborrados:        prpa_02.py[m
+	[32mborrados:        prpa_03.py[m
+	[32mborrados:        prpa_04.py[m
+
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que se será confirmado)
+	[31mmultiprocessing.txt[m
+	[31mprpa_01.py[m
+	[31mprpa_02.py[m
+	[31mprpa_03.py[m
+	[31mprpa_04.py[m
+
+[?2004h]0;alumno@aula424: ~/PRPA[01;32malumno@aula424[00m:[01;34m~/PRPA[00m$ git add_prpra[K[K[K[K[K[K prpa_01.py 
+[?2004l[?2004h]0;alumno@aula424: ~/PRPA[01;32malumno@aula424[00m:[01;34m~/PRPA[00m$ git add prpa_01.py [1P[1@2
+[?2004l[?2004h]0;alumno@aula424: ~/PRPA[01;32malumno@aula424[00m:[01;34m~/PRPA[00m$ git add prpa_02.py [1P[1@3
+[?2004l[?2004h]0;alumno@aula424: ~/PRPA[01;32malumno@aula424[00m:[01;34m~/PRPA[00m$ git add prpa_03.py [1P[1@4
+[?2004l[?2004h]0;alumno@aula424: ~/PRPA[01;32malumno@aula424[00m:[01;34m~/PRPA[00m$ git commit
+[?2004lEn la rama main
+Tu rama está adelantada a 'origin/main' por 1 commit.
+  (usa "git push" para publicar tus commits locales)
+
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que se será confirmado)
+	[31mmultiprocessing.txt[m
+
+no hay nada agregado al commit pero hay archivos sin seguimiento presentes (usa "git add" para hacerles seguimiento)
+[?2004h]0;alumno@aula424: ~/PRPA[01;32malumno@aula424[00m:[01;34m~/PRPA[00m$ git commitadd prpa_04.py [C[1P [1P [1P [1P [1P [1P [1P [1P [1P [1P m u l t i p r o c e s s i n g . t x t 
+[?2004l[?2004h]0;alumno@aula424: ~/PRPA[01;32malumno@aula424[00m:[01;34m~/PRPA[00m$ git add multiprocessing.txt commit[K
+[?2004layuda: Esperando que tu editor cierre el archivo ... [?2004h[?1049h[22;0;0t[1;55r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[53;44H(B[0;7m[ Leyendo... ](B[m[53;41H(B[0;7m[ 12 líneas leídas ](B[m[H(B[0;7m  GNU nano 6.2                    /home/alumno/PRPA/.git/COMMIT_EDITMSG                              [1;100H(B[m[54d(B[0;7m^G(B[m Ayuda[15G(B[0;7m^O(B[m Guardar    (B[0;7m^W(B[m Buscar     (B[0;7m^K(B[m Cortar     (B[0;7m^T(B[m Ejecutar   (B[0;7m^C(B[m Ubicación  (B[0;7mM-U(B[m Deshacer[55d(B[0;7m^X(B[m Salir[15G(B[0;7m^R(B[m Leer fich. (B[0;7m^\(B[m Reemplazar (B[0;7m^U(B[m Pegar[57G(B[0;7m^J(B[m Justificar (B[0;7m^/(B[m Ir a línea (B[0;7mM-E(B[m Rehacer[3d[36m# Por favor ingresa el mensaje del commit para tus cambios. Las[4d#  líneas que comiencen con '#' serán ignoradas, y un mensaje[5d#  vacío aborta el commit.[6d#[7d# En la rama main[8d# Tu rama está adelantada a 'origin/main' por 1 commit.[9d#   (usa "git push" para publicar tus commits locales)[10d#[11d# Cambios a ser confirmados:[12d#[38;5;208m       [36mnuevos archivos: multiprocessing.txt[13d#[2d[39m(B[m[?12l[?25h[?25l[1;73H(B[0;7m*[100G(B[m[?12l[?25h[2dC[?25l[?12l[?25ha[?25l[?12l[?25hm[?25l[?12l[?25hb[?25l[?12l[?25hi[?25l[?12l[?25ho[?25l[?12l[?25h [?25l[?12l[?25hd[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25hl[?25l[?12l[?25hl[?25l[?12l[?25ho[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25ho[?25l[?12l[?25hs[?25l[53d[K[?12l[?25h[2;15H[?25l[?12l[?25ha[?25l[?12l[?25hr[?25l[?12l[?25hc[?25l[?12l[?25hi[?25l[?12l[?25h [?25l[?12l[?25hg[?25l[?12l[?25hi[?25l[?12l[?25hv[?25l[?12l[?25ho[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25hh[?25l[?12l[?25hi[?25l[?12l[?25hv[?25l[?12l[?25ho[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25hd[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25hl[?25l[?12l[?25ha[?25l[?12l[?25h [?25l[?12l[?25hp[?25l[?12l[?25ha[?25l[?12l[?25h [?25l[?12l[?25hr[?25l[?12l[?25ha[?25l[?12l[?25hc[?25l[?12l[?25ht[?25l[?12l[?25hi[?25l[?12l[?25hc[?25l[?12l[?25ha[?25l[?12l[?25h [?25l[?12l[?25h1[?25l[54;15H           (B[0;7mM-D(B[m Formato DOS          (B[0;7mM-A(B[m Añadir[15X[54;76H(B[0;7mM-B(B[m Respaldar fichero[55;2H(B[0;7mC(B[m Cancelar[14X[55;26H(B[0;7mM-M(B[m Formato Mac          (B[0;7mM-P(B[m Anteponer            (B[0;7m^T(B[m Navegar[K[53d(B[0;7mNombre del archivo a escribir: /home/alumno/PRPA/.git/COMMIT_EDITMSG                                 [53;69H(B[m[?12l[?25h[?25l[53;41H[1K (B[0;7m[ Escribiendo... ](B[m[K[1;73H(B[0;7m [100G(B[m[53;40H(B[0;7m[ 12 líneas escritas ](B[m[54;15H(B[0;7m^O(B[m Guardar    (B[0;7m^W(B[m Buscar     (B[0;7m^K(B[m Cortar     (B[0;7m^T(B[m Ejecutar   (B[0;7m^C(B[m Ubicación  (B[0;7mM-U(B[m Deshacer[55;2H(B[0;7mX(B[m Salir      (B[0;7m^R(B[m Leer fich. (B[0;7m^\(B[m Reemplazar (B[0;7m^U(B[m Pegar      (B[0;7m^J(B[m Justificar (B[0;7m^/(B[m Ir a línea (B[0;7mM-E(B[m Rehacer[?12l[?25h[2;40H[?25l[54;15H           (B[0;7mM-D(B[m Formato DOS          (B[0;7mM-A(B[m Añadir[15X[54;76H(B[0;7mM-B(B[m Respaldar fichero[55;2H(B[0;7mC(B[m Cancelar[14X[55;26H(B[0;7mM-M(B[m Formato Mac          (B[0;7mM-P(B[m Anteponer            (B[0;7m^T(B[m Navegar[K[53d(B[0;7mNombre del archivo a escribir: /home/alumno/PRPA/.git/COMMIT_EDITMSG                                 [53;69H(B[m[?12l[?25h[?25l[53;41H[1K (B[0;7m[ Escribiendo... ](B[m[K[1;100H[53;40H(B[0;7m[ 12 líneas escritas ](B[m[54;15H(B[0;7m^O(B[m Guardar    (B[0;7m^W(B[m Buscar     (B[0;7m^K(B[m Cortar     (B[0;7m^T(B[m Ejecutar   (B[0;7m^C(B[m Ubicación  (B[0;7mM-U(B[m Deshacer[55;2H(B[0;7mX(B[m Salir      (B[0;7m^R(B[m Leer fich. (B[0;7m^\(B[m Reemplazar (B[0;7m^U(B[m Pegar      (B[0;7m^J(B[m Justificar (B[0;7m^/(B[m Ir a línea (B[0;7mM-E(B[m Rehacer[?12l[?25h[2;40H[?25l[54;15H           (B[0;7mM-D(B[m Formato DOS          (B[0;7mM-A(B[m Añadir[15X[54;76H(B[0;7mM-B(B[m Respaldar fichero[55;2H(B[0;7mC(B[m Cancelar[14X[55;26H(B[0;7mM-M(B[m Formato Mac          (B[0;7mM-P(B[m Anteponer            (B[0;7m^T(B[m Navegar[K[53d(B[0;7mNombre del archivo a escribir: /home/alumno/PRPA/.git/COMMIT_EDITMSG                                 [53;69H(B[m[?12l[?25h[?25l[53;41H[1K (B[0;7m[ Escribiendo... ](B[m[K[1;100H[53;40H(B[0;7m[ 12 líneas escritas ](B[m[54;15H(B[0;7m^O(B[m Guardar    (B[0;7m^W(B[m Buscar     (B[0;7m^K(B[m Cortar     (B[0;7m^T(B[m Ejecutar   (B[0;7m^C(B[m Ubicación  (B[0;7mM-U(B[m Deshacer[55;2H(B[0;7mX(B[m Salir      (B[0;7m^R(B[m Leer fich. (B[0;7m^\(B[m Reemplazar (B[0;7m^U(B[m Pegar      (B[0;7m^J(B[m Justificar (B[0;7m^/(B[m Ir a línea (B[0;7mM-E(B[m Rehacer[?12l[?25h[2;40H[?25l[1;73H(B[0;7m*[100G(B[m[3;52r[3;1HM[1;55r[3;1H[?12l[?25h[?25l[3;52r[52;1H
+[1;55r[2;40H[?12l[?25h[?25l[53d(B[0;7m¿Guardar el búfer modificado?                                                                        [54;1H S(B[m Sí[K[55d(B[0;7m N(B[m No   [15G  (B[0;7m^C(B[m Cancelar[K[53;31H[?12l[?25h[?25l[?12l[?25h[?25l[53;44H[1K (B[0;7m[ Cancelado ](B[m[K[54d(B[0;7m^G(B[m Ayuda[15G(B[0;7m^O(B[m Guardar    (B[0;7m^W(B[m Buscar     (B[0;7m^K(B[m Cortar     (B[0;7m^T(B[m Ejecutar   (B[0;7m^C(B[m Ubicación  (B[0;7mM-U(B[m Deshacer[55d(B[0;7m^X(B[m Salir[15G(B[0;7m^R(B[m Leer fich. (B[0;7m^\(B[m Reemplazar (B[0;7m^U(B[m Pegar[57G(B[0;7m^J(B[m Justificar (B[0;7m^/(B[m Ir a línea (B[0;7mM-E(B[m Rehacer[?12l[?25h[2;40H[?25l[53d(B[0;7m¿Guardar el búfer modificado?                                                                        [54;1H S(B[m Sí[K[55d(B[0;7m N(B[m No   [15G  (B[0;7m^C(B[m Cancelar[K[53;31H[?12l[?25h[?25l[54d(B[0;7m^G(B[m Ayuda[54;26H(B[0;7mM-D(B[m Formato DOS[54;51H(B[0;7mM-A(B[m Añadir[54;76H(B[0;7mM-B(B[m Respaldar fichero[55d(B[0;7m^C(B[m Cancelar[14X[55;26H(B[0;7mM-M(B[m Formato Mac[55;51H(B[0;7mM-P(B[m Anteponer[55;76H(B[0;7m^T(B[m Navegar[53d(B[0;7mNombre del archivo a escribir: /home/alumno/PRPA/.git/COMMIT_EDITMSG(B[m[?12l[?25h[?25l[53;41H[1K (B[0;7m[ Escribiendo... ](B[m[K[1;73H(B[0;7m [100G(B[m[53;40H(B[0;7m[ 12 líneas escritas ](B[m[J[55d[?12l[?25h[55;1H[?1049l[23;0;0t[?1l>[?2004l[K[main 94e4491] Cambio de los archivos de la practica 1
+ 1 file changed, 43 insertions(+)
+ create mode 100644 multiprocessing.txt
+[?2004h]0;alumno@aula424: ~/PRPA[01;32malumno@aula424[00m:[01;34m~/PRPA[00m$ git status
+[?2004lEn la rama main
+Tu rama está adelantada a 'origin/main' por 2 commits.
+  (usa "git push" para publicar tus commits locales)
+
+Cambios no rastreados para el commit:
+  (usa "git add <archivo>..." para actualizar lo que será confirmado)
+  (usa "git restore <archivo>..." para descartar los cambios en el directorio de trabajo)
+	[31mmodificados:     multiprocessing.txt[m
+
+sin cambios agregados al commit (usa "git add" y/o "git commit -a")
+[?2004h]0;alumno@aula424: ~/PRPA[01;32malumno@aula424[00m:[01;34m~/PRPA[00m$ [?2004l
+exit
+
+Script done on 2023-02-02 13:21:11+01:00 [COMMAND_EXIT_CODE="0"]
